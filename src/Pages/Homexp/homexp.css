@@ -1,0 +1,8 @@
+.section1 {
+    display: flex;
+    background-image: url("./imgs/background_win_xp.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+ /*    width: 100%; */
+
+}
