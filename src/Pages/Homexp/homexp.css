@@ -1,8 +1,10 @@
 .section1 {
     display: flex;
-    background-image: url("./imgs/background_win_xp.png");
+    background-image: url(/src/imgs/background_win_xp.png);
     background-size: cover;
     background-repeat: no-repeat;
- /*    width: 100%; */
+    height: 111vh;
+    margin-top: -6%;
+    overflow: hidden;
 
 }
