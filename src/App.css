@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,34 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+@font-face {
+  font-family: 'ChakraPetch-Bold';
+  src: local('ChakraPetch-Bold'), url(/src/fonts/ChakraPetch/ChakraPetch-Bold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'ChakraPetch-Italic';
+  src: local('ChakraPetch-Italic'), url(/src/fonts/ChakraPetch/ChakraPetch-Italic.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'ChakraPetch-Light';
+  src: local('ChakraPetch-Light'), url(/src/fonts/ChakraPetch/ChakraPetch-Light.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'ChakraPetch-Medium';
+  src: local('ChakraPetch-Medium'), url(/src/fonts/ChakraPetch/ChakraPetch-Medium.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'ChakraPetch-Regular';
+  src: local('ChakraPetch-Regular'), url(/src/fonts/ChakraPetch/ChakraPetch-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'ChakraPetch-SemiBold';
+  src: local('ChakraPetch-SemiBold'), url(/src/fonts/ChakraPetch/ChakraPetch-SemiBold.ttf) format('truetype');
 }

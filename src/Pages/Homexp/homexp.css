@@ -1,10 +1,23 @@
 .section1 {
     display: flex;
-    background-image: url(/src/imgs/background_win_xp.png);
+    
+    background-image: url(/src/imgs/bk4.png);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 111vh;
-    margin-top: -6%;
-    overflow: hidden;
+    background-position: center ;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+}
 
+.containerleft {
+    display: flex;
+    justify-content: flex-end;
+    width: 55%;
+    height: 100%;
+    border-right: 2px solid #000;
+}
+
+.containerleft h1{
+    font-family: "ChakraPetch-Bold";
 }
