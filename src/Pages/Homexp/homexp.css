@@ -1,13 +1,28 @@
 .section1 {
     display: flex;
-    
-    background-image: url(/src/imgs/bk4.png);
+    flex-direction: column;
+    background-image: url(/src/imgs/alegria_windows_xp.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center ;
+    background-position: center;
     position: fixed;
     height: 100%;
     width: 100%;
+}
+
+.dadcontainer{
+    display: flex;
+    width: 100%;
+    height: 95%;
+}
+
+.taskbar{
+    width: 100%;
+    height: 5%;
+    background-image: url(/src/imgs/taskbar\ win\ xp.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom;
 }
 
 .containerleft {
@@ -18,6 +33,12 @@
     border-right: 2px solid #000;
 }
 
-.containerleft h1{
-    font-family: "ChakraPetch-Bold";
+.containerleft h1 {
+    font-family: 'ChakraPetch-Italic';
+    color: #fff;
+}
+
+.teste{
+    font-size:xx-large;
+    font-family: 'ChakraPetch-Bold';
 }
