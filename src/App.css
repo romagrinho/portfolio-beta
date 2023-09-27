@@ -66,3 +66,8 @@
   font-family: 'ChakraPetch-SemiBold';
   src: local('ChakraPetch-SemiBold'), url(/src/fonts/ChakraPetch/ChakraPetch-SemiBold.ttf) format('truetype');
 }
+
+@font-face {
+  font-family: 'Windows-Regular';
+  src: local('Windows-Regular'), url(/src/fonts/Windowsxp/Windows-Regular.ttf) format('truetype');
+}
