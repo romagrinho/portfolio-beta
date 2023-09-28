@@ -11,13 +11,35 @@
     z-index: -1;
 }
 
-.dadcontainer{
+.dadcontainer {
     display: flex;
     width: 100%;
     height: 95%;
 }
 
-.taskbar{
+
+.containerleft {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 53%;
+    height: 100%;
+    border-right: 2px solid #000;
+}
+
+.containerright{
+    display: flex;
+    align-self: center;
+}
+
+.left_son{
+    display: flex;
+    justify-content: flex-end;
+    border: solid #000;
+    height: 70%;
+}
+
+.taskbar {
     width: 100%;
     height: 5%;
     background-image: url(/src/imgs/taskbar\ win\ xp.png);
@@ -25,17 +47,7 @@
     background-size: 100%;
     background-position: bottom;
 }
-
-.containerleft {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    width: 53%;
-    height: 100%;
-    border-right: 2px solid #000;
-}
-
-.apps{
+.apps {
     display: grid;
     z-index: 2;
     position: fixed;
@@ -44,35 +56,38 @@
     padding-left: 1.5%;
 }
 
-.app1{
+.app1 {
     display: flex;
     flex-direction: column;
     align-items: center;
     height: 10vh;
 }
 
-.img_recycle{
+.img_recycle {
     height: 80%;
 }
 
-.app1 h5{
+.app1 h5 {
     font-family: 'Windows-Regular';
     margin-top: 2%;
     color: white;
 }
 
-.up_invisible{
-    display: flex;
-    flex-direction: column;
-    align-items: baseline;
-    border: 1px solid #000;
-    z-index: 1;
-    height: 40%;
-   
+.textbox{
+    height: 150px;
+    width: 600px;
+    border: solid #000 ;
 }
 
-.teste{
-    font-size:xx-large;
+.title_name{
     font-family: 'ChakraPetch-Bold';
+    font-size: 60px;
+    color: #fff;
 }
 
+.title_subname{
+    font-family: 'ChakraPetch-SemiBold';
+    font-size: 30px;
+    color: #fff;
+    margin-top: -10%;
+}
