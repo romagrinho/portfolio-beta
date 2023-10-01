@@ -24,7 +24,7 @@
     justify-content: center;
     width: 53%;
     height: 100%;
-    border-right: 2px solid #000;
+   /*  border-right: 3px solid #ff00dd; */
 }
 
 .containerright{
@@ -35,8 +35,18 @@
 .left_son{
     display: flex;
     justify-content: flex-end;
-    border: solid #000;
+    align-items: center;
+  /*   border: solid #f02a2a; */
     height: 70%;
+}
+
+.left_son2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  /*   border: solid #6fc421; */
+    height: 283px;
+    width: 550px;
 }
 
 .taskbar {
@@ -71,23 +81,75 @@
     font-family: 'Windows-Regular';
     margin-top: 2%;
     color: white;
+    text-shadow: -1px 1px 1px rgba(0, 0, 0, 1);
 }
 
 .textbox{
     height: 150px;
     width: 600px;
-    border: solid #000 ;
+   /*  border: solid #3313eb ; */
 }
 
 .title_name{
     font-family: 'ChakraPetch-Bold';
     font-size: 60px;
     color: #fff;
+    text-shadow: 0 4px 3px rgba(0, 0, 0, 1);
+    /* text-shadow: (eixo x = 0) (eixo y = 4px) (blur = 4px) rgba(0, 0, 0, 1); */
 }
 
 .title_subname{
+    display: flex;
+    justify-content: space-between;
     font-family: 'ChakraPetch-SemiBold';
     font-size: 30px;
     color: #fff;
     margin-top: -10%;
+    text-shadow: 0 4px 3px rgba(0, 0, 0, 1);
+    width: 72%;
+
+}
+
+.subname_span{
+    display: flex;
+    justify-content: flex-start;
+    border-right: solid 2px rgba(255, 255, 255, 1);
+    white-space: nowrap;
+    overflow: hidden;
+    width: 155px;
+}
+
+.messagebox{
+    height: 39%;
+    width: 13vw;
+}
+
+
+.typing-animation{
+    animation: blinkCursor 1100ms steps(40) infinite both, 
+    typing 3s steps(40) 1s both;
+}
+
+@keyframes typing {
+    from{
+        width: 0px; 
+    }
+    to{
+        width: 155px; 
+    }
+}
+
+@keyframes blinkCursor{
+    0% {
+        border-right: solid 2px rgba(255, 255, 255, 1);
+    }
+    49.9% {
+        border-right: solid 2px rgba(255, 255, 255, 1);
+    }
+    50% {
+        border-right: solid 2px transparent;
+    }
+    100% {
+        border-right: solid 2px transparent;
+    }
 }

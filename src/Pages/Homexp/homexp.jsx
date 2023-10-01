@@ -4,7 +4,8 @@ import lixeira from "./Imgs/recycle_bin.png"
 import linkedin from "./Imgs/LinkedIn.png"
 import email from "./Imgs/Email.png"
 import github from "./Imgs/GitHub.png"
-import me from "./Imgs/win_xp_paint.png"
+import me from "./Imgs/win_xp_paint_2.png"
+import messagebox from './Imgs/message_box_xp.png'
 
 
 export default function Homexp() {
@@ -39,9 +40,12 @@ export default function Homexp() {
                 </div>
                 <div className="containerleft">
                     <div className="left_son">
-                        <div className="textbox">
-                            <h1 className='title_name'>ROMARIO AGUILAR</h1>
-                            <h2 className="title_subname">Sou desenvolvedor Full-Stack</h2>
+                        <div className="left_son2">
+                            <div className="textbox">
+                                <h1 className='title_name'>ROMARIO AGUILAR</h1>
+                                <h2 className="title_subname ">Sou desenvolvedor <span className="subname_span typing-animation">Full-Stack.</span></h2>
+                            </div>
+                            <img className="messagebox" src={messagebox}></img>
                         </div>
                     </div>
                 </div>
