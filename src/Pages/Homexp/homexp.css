@@ -112,6 +112,10 @@
 
 }
 
+.h2-span{
+    margin-top: -29px;
+}
+
 .messagebox{
     height: 39%;
     width: 13vw;
@@ -119,19 +123,19 @@
 
 
 .typing-animation{
-    animation: blinkCursor 1100ms steps(40) infinite both, 
-    typing 3s steps(15) 1s  both;
+    animation: blinkCursor 1100ms steps(40) infinite both;
+  /*   typing 3s steps(15) 1s  both; */
 }
 
 
-@keyframes typing {
+/* @keyframes typing {
     from{
         width: 272px; 
     }
     to{
         width: 430px; 
     }
-}
+} */
 
 @keyframes blinkCursor{
     0% {

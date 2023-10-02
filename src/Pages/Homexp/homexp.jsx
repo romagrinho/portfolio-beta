@@ -1,4 +1,5 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, Component } from "react";
+import Typical from 'react-typical'
 import "./homexp.css";
 import lixeira from "./Imgs/recycle_bin.png"
 import linkedin from "./Imgs/LinkedIn.png"
@@ -43,7 +44,10 @@ export default function Homexp() {
                         <div className="left_son2">
                             <div className="textbox">
                                 <h1 className='title_name'>ROMARIO AGUILAR</h1>
-                                <h2 className="title_subname typing-animation">Sou desenvolvedor Full-Stack.</h2>
+                                <h2 className="title_subname">Sou desenvolvedor <span className="h2-span"><Typical
+                                steps={['Full Stack.',1500, 'F',800,'Full Stack.', 1500]}
+                                loop={Infinity}
+                                ></Typical></span></h2>
                             </div>
                             <img className="messagebox" src={messagebox}></img>
                         </div>
