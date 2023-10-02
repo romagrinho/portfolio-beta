@@ -106,17 +106,10 @@
     color: #fff;
     margin-top: -10%;
     text-shadow: 0 4px 3px rgba(0, 0, 0, 1);
-    width: 72%;
-
-}
-
-.subname_span{
-    display: flex;
-    justify-content: flex-start;
-    border-right: solid 2px rgba(255, 255, 255, 1);
+    width: 432px;
     white-space: nowrap;
     overflow: hidden;
-    width: 155px;
+
 }
 
 .messagebox{
@@ -127,15 +120,16 @@
 
 .typing-animation{
     animation: blinkCursor 1100ms steps(40) infinite both, 
-    typing 3s steps(40) 1s both;
+    typing 3s steps(15) 1s  both;
 }
+
 
 @keyframes typing {
     from{
-        width: 0px; 
+        width: 272px; 
     }
     to{
-        width: 155px; 
+        width: 430px; 
     }
 }
 

@@ -43,7 +43,7 @@ export default function Homexp() {
                         <div className="left_son2">
                             <div className="textbox">
                                 <h1 className='title_name'>ROMARIO AGUILAR</h1>
-                                <h2 className="title_subname ">Sou desenvolvedor <span className="subname_span typing-animation">Full-Stack.</span></h2>
+                                <h2 className="title_subname typing-animation">Sou desenvolvedor Full-Stack.</h2>
                             </div>
                             <img className="messagebox" src={messagebox}></img>
                         </div>
