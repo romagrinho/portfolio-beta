@@ -1,11 +1,17 @@
-import React, {useEffect,useState} from "react";
+import React, { useEffect, useState } from "react";
 import './App.css';
 import Homexp from "./Pages/Homexp/homexp";
+import ErrorDead from "./Pages/Blue_screen/bluescreen"
+import Loading from "./Pages/Loading/loading"
+import Portfolio from "./Pages/Portfolio/portfólio";
 
-function App (){
+function App() {
   return (
     <div className="App">
-      <Homexp/>
+      {/*      <Homexp/> */}
+      {/*  {  <ErrorDead/>} */}
+      {/* <Loading /> */}
+      <Portfolio/>
     </div>
   );
 }

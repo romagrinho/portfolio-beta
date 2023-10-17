@@ -1,0 +1,14 @@
+.section4{
+    display: flex;
+    background-color: black;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.section4 h1{
+    font-family: 'Windows-Regular';
+    color: white;
+}
